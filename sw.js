@@ -1,9 +1,9 @@
 let timerDisplay=document.querySelector('.timerDisplay');
 let stopBtn=document.getElementById('stopBtn');
 let resetBtn=document.getElementById('resetBtn');
-let msec=00;
-let sec=00;
-let min=00;
+let msec=0o0;
+let sec=0o0;
+let min=0o0;
 let timerId= null;
 startBtn.addEventListener('click',function(){
     if(timerId!==null){
